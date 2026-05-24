@@ -1,5 +1,5 @@
 // components/govhar.hasanova.tsx
-import React from 'react';
+
 import './Portfolio.css';
 
 interface Project {
