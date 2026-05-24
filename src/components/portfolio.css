@@ -1,0 +1,18 @@
+.profile-card-premium img {width: 150px; margin-bottom: 20px; filter: drop-shadow(0 10px 20px rgba(67,233,123,0.3));}
+.skills-grid {display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 20px;}
+.skills-grid span{
+    background: rgba(67,233,123,0.1); color: #43e97b;
+    padding: 6px 15px; border-radius: 30px; font-size: 0.8rem; font-weight: 700;
+}
+.btn-primary {
+    background: linear-gradient(135deg, #43e97b, #38f9d7); color: #080816;
+    padding: 15px 35px; border-radius: 12px; font-weight: 800; border: none; cursor: pointer;
+    box-shadow: 0 10 px 20 px rgba(67,233,123,0.2); transition: 0.3s;
+}
+.btn-primary: :hover {transform: translateY(-3px); box-shadow: 0 15px 30px rgba(67,233,123,0.4);}
+@media (max-width:968px) {.hero-section {grid-template-columns: 1fr;text-align: center;}}
+
+.portfolio-container{
+    min-height: 100vh; background: #080816; color: #fff;
+    padding: 0 8%; overflow-x: hidden;
+}
